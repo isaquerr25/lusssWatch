@@ -101,10 +101,13 @@ class Footer extends Component {
 							<div className='col-xl-4 col-md-4 mb-30'>
 								<div className='single-cta'>
 									<div className='cta-text'>
-										<a className='link-email' href='tel:+33187211381'>
+										<a
+											className='link-email'
+											href='tel:isaqueribeiro964@gmail.com'
+										>
 											<span className='span-footer'>
-												<i className='fas fa-phone row1-icon'></i>&nbsp;(+33) 1
-												87 21 13 81
+												<i className='fas fa-phone row1-icon'></i>&nbsp;(+351)
+												913 329 725
 											</span>
 										</a>
 									</div>
@@ -115,12 +118,12 @@ class Footer extends Component {
 									<div className='cta-text'>
 										<a
 											className='link-email'
-											href='mailto:info@watchmarketclub.com'
+											href='mailto:isaqueribeiro964@gmail.com'
 										>
 											<span className='span-footer'>
 												{' '}
 												<i className='far fa-envelope-open row1-icon'></i>
-												&nbsp;info@watchmarketclub.com
+												&nbsp;isaqueribeiro964@gmail.com
 											</span>
 										</a>
 									</div>
@@ -235,7 +238,7 @@ class Footer extends Component {
 									<p>
 										Copyright &copy; {this.getYear()},{' '}
 										{t('footer-copyright-text')}{' '}
-										<a href='https://www.linkedin.com/in/alexandre-rodrigueza/'>
+										<a href='https://www.linkedin.com/in/isaque-ferreira-20007b165/'>
 											ReVoL
 										</a>
 									</p>
