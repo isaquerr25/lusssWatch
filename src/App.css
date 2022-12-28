@@ -1,37 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
-  --black-color: #111010;
-  /* to use ex => color: var(--gold-color) */
-  /* #3b3b37;  */
-  --background-color: #f5f3ed;
-  
-  --text-on-background: #111010;
-  /* --background-color-body: #F0EEEB; */
+	--black-color: #111010;
+	/* to use ex => color: var(--gold-color) */
+	/* #3b3b37;  */
+	--background-color: #f5f3ed;
 
-  --background-color-body: #ffffff;
+	--text-on-background: #111010;
+	/* --background-color-body: #F0EEEB; */
 
-  /* --vert-color: #2D6B56; */
-  --vert-color: #4b4b4b;
+	--background-color-body: #ffffff;
 
+	/* --vert-color: #2D6B56; */
+	--vert-color: #4b4b4b;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-body{
-  background-color: var(--background-color-body)!important;
+body {
+	background-color: var(--background-color-body) !important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display: =swap');
 
-*{
+* {
 	/* margin: 0;
 	padding: 0;
 	box-sizing: border-box; */
 	/* font-family: 'Poppins',sans-serif; */
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Nunito', sans-serif;
-} 
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Nunito', sans-serif;
+}
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
