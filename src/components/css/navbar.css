@@ -1,0 +1,165 @@
+@media screen and (min-width: 601px) {
+  .tel-header {
+    position: absolute;
+    right: 20px;
+  }
+
+  .mr-auto {
+    width: 80%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .big-screen-nav {
+    display: none;
+  }
+
+  .main-logo {
+    height: 30px;
+  }
+  .tel-header {
+    position: absolute;
+    right: 20px;
+  }
+}
+
+.tel-in-nav{
+  color: black;
+  text-decoration: none
+}
+
+/* ICI ALEX TITRE */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+.my-logo-police {
+  font-family: 'Cinzel', serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 37px;
+
+}
+
+@media only screen and (min-width: 650px) and (max-width: 738px) {
+  .my-logo-police {
+    font-size: 27px
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 649px) {
+  .my-logo-police {
+    font-size: 22px
+  }
+}
+
+.my-police-titre{
+  font-family: 'GFS Didot', serif !important;
+  font-family: 'GFS Didot', serif !important;
+}
+
+.navbar-nav {
+  font-size: 1em;
+}
+
+/* navlink in middle */
+#basic-navbar-nav {
+  justify-content: space-around;
+}
+
+.select-lang {
+  background-color: #F6F3ED !important
+}
+
+.main-logo {
+  max-height: 40px
+}
+
+.logo-nav-div {
+  align-items: center;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* padding-left: 9%; */
+  text-align: center;
+  background-color: var(--background-color);
+  font-size: 1.3em;
+}
+
+.my-navbar {
+  background-color: var(--background-color);
+  /* not sure below */
+  /* justify-content: flex-start !important; */
+}
+
+.active {
+  color: var(--vert-color) !important;
+  text-decoration: underline !important;
+  border-color: #a9a6a1;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.majuscule-title {
+  font-size: 1.5em;
+  font-family: 'Crimson Text', serif;
+
+}
+
+@media screen and (max-width: 785px) {
+  .nav-link {
+    font-size: 1em;
+  }
+
+  .majuscule-title {
+    font-size: 1.2em;
+    font-family: 'Crimson Text', cursive;
+  }
+}
+
+
+
+/* #my-ul li{
+  display: inline;
+}
+
+
+
+
+#my-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#my-ul li {
+  float: left;
+}
+
+#my-ul li a {
+  display: block;
+  padding: 8px;
+} */
+
+
+.navz ul {
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+}
+
+.navz a {
+  padding: 1em;
+  display: block;
+  text-align:center;
+  text-decoration: none;
+}
+
+.navz .menuz {
+  display: flex; /*1*/
+  flex-direction : row; /*2*/
+  justify-content: center; /*3*/
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 601px) {
+  .my-mobile-nav {
+    display: none;
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-nav {
+    font-size: 0.72em;
+  }
+  .fa-phone{
+    font-size: 20px;
+  }
+}
+.wmc-navbar{
+  background-color: var(--background-color);
+  padding-left:'40px';
+  display: flex;
+  align-items: center;
+
+}
+
+.langue-button{
+  text-decoration: none !important;
+  padding: 5px !important;
+  font-size: 22px !important;
+}
+.langue-button-div{
+  position: absolute;
+  right: 20px;
+}
+@media screen and (min-width: 840px) {
+  .langue-button{
+    font-size: 28px !important;
+  }
+}

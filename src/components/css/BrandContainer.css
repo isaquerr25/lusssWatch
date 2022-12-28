@@ -1,0 +1,81 @@
+.brand-div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+  height: 100px;
+  width: 30% !important;
+  transform: scale(0.6);
+  padding: 10px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.brand-container-rolex {
+  background-image: url(../../img/logo2/rolexblack.png);
+
+}
+
+.brand-container-audemars {
+  background-image: url(https://journalduluxe.fr/files/resize/outside/810-810-audemars-piguet-logo_c8b2facddd4249a8fac1e48153ac26e4.png);
+}
+
+.brand-container-journe {
+  background-image: url(https://images.chronocash.eu/brands/brand_149995894777504.png);
+  transform: scale(1.1);
+}
+
+.brand-container-breitling {
+  background-image: url(https://logos-download.com/wp-content/uploads/2016/09/Breitling_logo.png);
+}
+
+.brand-container-cartier {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1024px-Cartier_logo.svg.png);
+  transform: scale(.5);
+}
+
+.brand-container-jaeger {
+  background-image: url(data:image/png;base64,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);
+}
+
+.brand-container-longines {
+  background-image: url(https://logos-download.com/wp-content/uploads/2016/09/Longines_logo_black.png);
+}
+
+.brand-container-patek {
+  transform: scale(1.4);
+  background-image: url(https://assets.website-files.com/58ee3b512cf2501c95b09d06/59253722508d370d6c58e592_Patek.png);
+}
+
+.brand-container-tudor {
+  background-image: url(https://www.watchonista.com/sites/default/files/watchographer/1061/profile/tudor_logo_v_black_cmjn_2015.jpg);
+}
+
+.brand-container-vacheron {
+  background-image: url(../../img/logo2/vacheron.png);
+  transform: scale(.8);
+}
+
+.brand-container-tag {
+  background-image: url(https://www.watchonista.com/sites/default/files/watchographer/1017/profile/th_logo-2lignes-creux-pos.png);
+}
+
+.brand-container-lange {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Alange_soehne_logo.svg);
+}
+
+.container-spacing{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .brand-container-journe{
+    transform: scale(.7);
+  }
+  .brand-container-patek{
+    transform: scale(.7);
+  }
+
+}

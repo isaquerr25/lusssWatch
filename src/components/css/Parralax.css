@@ -1,0 +1,18 @@
+.parallax {
+  /* The image used */
+  /* https://i0.wp.com/luxe.net/wp-content/uploads/2014/10/RM038_front-Richard-Mille.jpg?fit=1121%2C916&ssl=1 */
+  /* Set a specific height */
+  min-height: 800px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .parallax {
+    display: none;
+  }
+
+}

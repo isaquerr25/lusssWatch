@@ -1,0 +1,34 @@
+.my-horizontal-card {
+  border-radius: 0;
+  margin: 40px auto;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+.video-toutube {
+  max-width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+@media screen and (max-width: 992px) and (min-width: 768px){ 
+  .video-toutube {
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+.my-center-vertical{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-title{
+  margin-top: .5em;
+}

@@ -1,0 +1,21 @@
+.logoIcones {
+  max-width: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.logoIcones:hover {
+  transform: scale(1.2);
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .logoIcones {
+    width: 30px;
+
+  }
+
+}
